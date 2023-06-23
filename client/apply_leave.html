@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Apply and View Leave</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <h1>Apply and View Leave</h1>
+
+  <div id="leave-form-container">
+    <h2>Apply for Leave</h2>
+    <form id="leave-form">
+      <label for="start-date">Start Date:</label>
+      <input type="date" id="start-date" required>
+
+      <label for="end-date">End Date:</label>
+      <input type="date" id="end-date" required>
+
+      <label for="reason">Reason:</label>
+      <textarea id="reason" rows="4" required></textarea>
+
+      <button type="submit">Submit</button>
+    </form>
+  </div>
+
+  <div id="leave-status-container">
+    <h2>Leave Status</h2>
+    <div id="leave-status"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Apply and View Complaints</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <h1>Apply and View Complaints</h1>
+
+  <div id="complaint-form-container">
+    <h2>File a Complaint</h2>
+    <form id="complaint-form">
+      <label for="complaint-type">Complaint Type:</label>
+      <input type="text" id="complaint-type" required>
+
+      <label for="complaint-description">Complaint Description:</label>
+      <textarea id="complaint-description" rows="4" required></textarea>
+
+      <button type="submit">Submit</button>
+    </form>
+  </div>
+
+  <div id="complaints-container">
+    <h2>Your Complaints</h2>
+    <ul id="complaints-list"></ul>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
